@@ -1,0 +1,233 @@
+[
+  {
+    "ref": "TSK-55CFFF",
+    "customer_whatsapp": "917895064602",
+    "status": "PENDING_RUNNER",
+    "runner_name": null,
+    "accepted_at": null,
+    "created_at": "2026-11-28T01:20:13.928090+05:30",
+    "parsed_request": {
+      "category": "OPD_TOKEN",
+      "confidence": 0.95,
+      "summary": "Mere dada ji ko kl subah hospital lekr jao",
+      "target_entity": "hospital",
+      "locality": "Haridwar",
+      "customer_address": null,
+      "site_location": null,
+      "patient_name": "Gaurav",
+      "patient_age": "56",
+      "patient_phone": "7895064692",
+      "department_or_doctor": "Gastric / Dr. Anand",
+      "visit_type": null,
+      "uhid_or_card": "None",
+      "item_details": null,
+      "requested_date": "2026-11-29",
+      "requested_time": "08:00",
+      "time_window": "Morning",
+      "est_duration_minutes": 90,
+      "needs_purchase": false,
+      "missing_details": [
+        "patient_age",
+        "patient_phone",
+        "department_or_doctor"
+      ],
+      "engine": "rules"
+    },
+    "quote": {
+      "base": 120,
+      "time_charge": 90,
+      "distance_charge": 15,
+      "total": 225,
+      "runner_payout": 169,
+      "platform_margin": 56
+    }
+  },
+  {
+    "ref": "TSK-9B616F",
+    "customer_whatsapp": "917895064602",
+    "status": "PENDING_RUNNER",
+    "runner_name": null,
+    "accepted_at": null,
+    "created_at": "2026-11-28T01:49:41.459477+05:30",
+    "parsed_request": {
+      "category": "OPD_TOKEN",
+      "confidence": 0.99,
+      "summary": "Mere dada ji ko kl subah hospital lekr jao (confirm) (Phone number noted)",
+      "target_entity": "Main Hospital",
+      "locality": "Haridwar",
+      "location_pin": {
+        "latitude": 29.9210917,
+        "longitude": 78.0971582,
+        "name": null,
+        "address": null,
+        "maps_url": "https://maps.google.com/?q=29.9210917,78.0971582"
+      },
+      "patient_name": "Bhel Rs Vishwkarma",
+      "patient_age": "81",
+      "patient_phone": "7895064602",
+      "department_or_doctor": "Dr. Gaurav",
+      "visit_type": null,
+      "uhid_or_card": "None",
+      "item_details": null,
+      "requested_date": "2026-11-29",
+      "requested_time": "19:00",
+      "time_window": "Morning",
+      "est_duration_minutes": 120,
+      "needs_purchase": false,
+      "missing_details": [
+        "hospital name",
+        "doctor/department",
+        "patient age"
+      ],
+      "engine": "groq"
+    },
+    "quote": {
+      "base": 120,
+      "time_charge": 120,
+      "distance_charge": 15,
+      "total": 255,
+      "runner_payout": 191,
+      "platform_margin": 64
+    }
+  },
+  {
+    "ref": "TSK-95E35B",
+    "customer_whatsapp": "917895064602",
+    "status": "PENDING_RUNNER",
+    "runner_name": null,
+    "accepted_at": null,
+    "created_at": "2026-11-28T02:03:18.595152+05:30",
+    "parsed_request": {
+      "category": "NICHE_SOURCING",
+      "confidence": 0.99,
+      "summary": "mujhe abhi geetaram halwai ki burfi chaiye",
+      "target_entity": "Geetaram Halwai",
+      "locality": "Haridwar",
+      "location_pin": {
+        "latitude": 29.9210917,
+        "longitude": 78.0971582,
+        "name": null,
+        "address": null,
+        "maps_url": "https://maps.google.com/?q=29.9210917,78.0971582"
+      },
+      "patient_name": null,
+      "patient_age": null,
+      "patient_phone": null,
+      "department_or_doctor": null,
+      "visit_type": null,
+      "uhid_or_card": "None",
+      "item_details": "burfi",
+      "requested_date": "2026-11-28",
+      "requested_time": "00:00",
+      "time_window": "Morning",
+      "est_duration_minutes": 45,
+      "needs_purchase": true,
+      "missing_details": [],
+      "engine": "groq"
+    },
+    "quote": {
+      "base": 50,
+      "time_charge": 0,
+      "distance_charge": 15,
+      "total": 65,
+      "runner_payout": 49,
+      "platform_margin": 16
+    }
+  },
+  {
+    "ref": "TSK-779BE7",
+    "customer_whatsapp": "917895064602",
+    "status": "PENDING_RUNNER",
+    "runner_name": null,
+    "accepted_at": null,
+    "created_at": "2026-11-28T02:20:01.355874+05:30",
+    "parsed_request": {
+      "category": "SITE_INSPECTION",
+      "confidence": 0.92,
+      "summary": "hii kal mere new ghar ka inspection krke aana h",
+      "target_entity": null,
+      "locality": null,
+      "location_pin": {
+        "latitude": 29.9210917,
+        "longitude": 78.0971582,
+        "name": null,
+        "address": null,
+        "maps_url": "https://maps.google.com/?q=29.9210917,78.0971582"
+      },
+      "patient_name": null,
+      "patient_age": null,
+      "patient_phone": null,
+      "department_or_doctor": null,
+      "visit_type": null,
+      "uhid_or_card": "None",
+      "item_details": null,
+      "requested_date": "2026-11-29",
+      "requested_time": null,
+      "time_window": null,
+      "est_duration_minutes": 45,
+      "needs_purchase": false,
+      "missing_details": [
+        "locality",
+        "time",
+        "property address"
+      ],
+      "engine": "groq"
+    },
+    "quote": {
+      "base": 150,
+      "time_charge": 0,
+      "distance_charge": 15,
+      "total": 165,
+      "runner_payout": 124,
+      "platform_margin": 41
+    }
+  },
+  {
+    "ref": "TSK-E24195",
+    "customer_whatsapp": "917895064602",
+    "status": "PENDING_RUNNER",
+    "runner_name": null,
+    "accepted_at": null,
+    "created_at": "2026-11-28T02:30:16.651199+05:30",
+    "parsed_request": {
+      "category": "OPD_TOKEN",
+      "confidence": 0.95,
+      "summary": "Mere dada ji ko kl subah hospital lekr jao",
+      "target_entity": "Main Hospital",
+      "locality": "Haridwar",
+      "location_pin": {
+        "latitude": 29.9210917,
+        "longitude": 78.0971582,
+        "name": null,
+        "address": null,
+        "maps_url": "https://maps.google.com/?q=29.9210917,78.0971582"
+      },
+      "patient_name": "Bhel Rs Vishwkarma",
+      "patient_age": "81",
+      "patient_phone": "7895064021",
+      "department_or_doctor": "Dr. Gaurav",
+      "visit_type": null,
+      "uhid_or_card": "None",
+      "item_details": null,
+      "requested_date": "2026-11-29",
+      "requested_time": "19:00",
+      "time_window": "Morning",
+      "est_duration_minutes": 120,
+      "needs_purchase": false,
+      "missing_details": [
+        "Hospital name",
+        "Doctor/department",
+        "Patient age"
+      ],
+      "engine": "rules"
+    },
+    "quote": {
+      "base": 120,
+      "time_charge": 120,
+      "distance_charge": 15,
+      "total": 255,
+      "runner_payout": 191,
+      "platform_margin": 64
+    }
+  }
+]
