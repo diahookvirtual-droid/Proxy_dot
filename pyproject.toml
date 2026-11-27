@@ -1,0 +1,7 @@
+[project]
+name = "proxy-dot"
+version = "0.1.0"
+description = "watsapp based errand service"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
